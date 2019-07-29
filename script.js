@@ -8,9 +8,11 @@ $(document).ready(function(){
       if(scroll_start > offset.top) {
           $('.effect').css('background-color', '#FFF' );
           $('.effect').css('box-shadow', '0px 0px 10px 1px #eae7e7' );
+          $('.effect').css('transition', 'all 0.5s ease' );
        } else {
           $('.effect').css('background-color', 'transparent');
-		  $('.effect').css('box-shadow', 'none' );
+          $('.effect').css('box-shadow', 'none' );
+          $('.effect').css('transition', 'all 0.5s ease' );
        }
    });
    // Get the modal
